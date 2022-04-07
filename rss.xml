@@ -3,8 +3,8 @@
     <channel>
         <title>Hello Coder</title>
         <subtitle>No Error No Warning</subtitle>
-        <icon>http://kiss-moon.github.io.com/images/favicon.ico</icon>
-        <link>http://Kiss-Moon.github.io.com</link>
+        <icon>http://yoursite.com/images/favicon.ico</icon>
+        <link>http://yoursite.com</link>
         <author>
           <name>MAC、凉梦</name>
         </author>
@@ -15,27 +15,27 @@
         <category term="越努力" />
         <category term=" 越幸运" />
         <item>
-            <guid isPermalink="true">http://kiss-moon.github.io.com/test-txt/</guid>
+            <guid isPermalink="true">http://yoursite.com/test-txt/</guid>
             <title>test.txt</title>
-            <link>http://kiss-moon.github.io.com/test-txt/</link>
+            <link>http://yoursite.com/test-txt/</link>
             <pubDate>Thu, 07 Apr 2022 19:35:55 +0800</pubDate>
             <description><![CDATA[  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://kiss-moon.github.io.com/C-CPP/CPP%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</guid>
+            <guid isPermalink="true">http://yoursite.com/C-CPP/CPP%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</guid>
             <title>CPP语言基础</title>
-            <link>http://kiss-moon.github.io.com/C-CPP/CPP%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</link>
-            <category term="C-CPP" scheme="http://kiss-moon.github.io.com/categories/C-CPP/" />
-            <category term="CPP语言基础" scheme="http://kiss-moon.github.io.com/categories/C-CPP/course-1/" />
+            <link>http://yoursite.com/C-CPP/CPP%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</link>
+            <category term="C-CPP" scheme="http://yoursite.com/categories/C-CPP/" />
+            <category term="CPP语言基础" scheme="http://yoursite.com/categories/C-CPP/course-1/" />
             <pubDate>Thu, 07 Apr 2022 14:43:36 +0800</pubDate>
             <description><![CDATA[  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://kiss-moon.github.io.com/Hello-MyWorld/hello-world/</guid>
+            <guid isPermalink="true">http://yoursite.com/Hello-MyWorld/hello-world/</guid>
             <title>欢迎来到我的世界</title>
-            <link>http://kiss-moon.github.io.com/Hello-MyWorld/hello-world/</link>
-            <category term="Hello-MyWorld" scheme="http://kiss-moon.github.io.com/categories/Hello-MyWorld/" />
-            <category term="欢迎来到我的世界" scheme="http://kiss-moon.github.io.com/categories/Hello-MyWorld/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/" />
+            <link>http://yoursite.com/Hello-MyWorld/hello-world/</link>
+            <category term="Hello-MyWorld" scheme="http://yoursite.com/categories/Hello-MyWorld/" />
+            <category term="欢迎来到我的世界" scheme="http://yoursite.com/categories/Hello-MyWorld/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/" />
             <pubDate>Wed, 06 Apr 2022 22:56:44 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
