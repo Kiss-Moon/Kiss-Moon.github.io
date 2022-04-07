@@ -12,7 +12,7 @@
     "version": "5.4.1"
   },
   "dependencies": {
-    "hexo": "^5.0.0",
+    "hexo": "^6.1.0",
     "hexo-algoliasearch": "^1.0.0",
     "hexo-asset-image": "github:CodeFalling/hexo-asset-image",
     "hexo-autoprefixer": "^2.0.0",
