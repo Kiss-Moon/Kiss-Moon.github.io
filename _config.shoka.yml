@@ -1,0 +1,89 @@
+alternate: MAC、凉梦
+
+# Assets
+statics: / #//cdn.jsdelivr.net/gh/amehime/shoka@latest/
+
+open_graph:
+  #twitter_id:
+  #google_plus:
+  #fb_admins:
+  #fb_app_id:
+
+menu:
+  home: / || home
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
+  friends: /friends/ || heart
+
+# Social Links
+# Usage: `Key: permalink || icon || color`
+# Key is the link label showing to end users.
+# Value before `||` delimiter is the target permalink,
+# secend value is the name of Font icon.
+social:
+  github: https://github.com/Kiss-Moon || github || "#191717"
+  email: mailto:lonewolf100100@qq.com || envelope || "#55acd5"
+  music: https://music.163.com/#/user/home?id=3266031491 || cloud-music || "#e60026"
+  weibo: https://weibo.com/u/7204360930 || weibo || "#ea716e"
+  zhihu: https://www.zhihu.com/people/MAC_LiangMeng || zhihu || "#1e88e5"
+  #google: https://plus.google.com/yourname || google
+  #facebook: https://www.facebook.com/yourname || facebook
+  #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
+  #youtube: https://youtube.com/yourname || youtube
+  #instagram: https://instagram.com/yourname || instagram
+  #skype: skype:yourname?call|chat || skype
+  #douban: https://www.douban.com/people/yourname/ || douban
+
+footer:
+  # Specify the date when the site was setup. If not defined, current year will be used.
+  since: 2022
+  count: true
+
+post:
+  count: true
+
+
+# ---------------------------------------------------------------
+# Third Party Plugins & Services Settings
+# ---------------------------------------------------------------
+
+# Comments
+# Valine
+# For more information: https://valine.js.org, https://github.com/xCss/Valine
+valine:
+  appId: #这里不要忘了改
+  appKey: #这里不要忘了改
+  placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
+  pageSize: 10 # Pagination size
+  lang: zh-CN
+  tagMember:
+    master:
+      # - deea5a8d259d17182a53be1772e4c182
+    friend:
+      - deea5a8d259d17182a53be1772e4c182
+
+# bgm
+audio:
+  - title: 列表1
+    list:
+      - https://music.163.com/#/playlist?id=7370131764
+  - title: 列表2
+    list:
+      - https://music.163.com/#/playlist?id=7370311990
+
+# Dependencies: https://github.com/amehime/hexo-renderer-multi-markdown-it
+pangu: true
+
+# ---------------------------------------------------------------
+# analytics & SEO Settings
+# ---------------------------------------------------------------
+
+
+# Disable Baidu transformation on mobile devices.
+disable_baidu_transformation: true
+
+# Automatically add external URL with Base64 encrypt & decrypt.
+exturl: true
