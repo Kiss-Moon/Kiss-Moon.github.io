@@ -13,7 +13,7 @@
     <category term=" 越幸运" />
     <entry>
         <id>http://liangmeng.com/WrittenExamination/Honor_20220412/</id>
-        <title>荣耀面试题</title>
+        <title>荣耀笔试题</title>
         <link rel="alternate" href="http://liangmeng.com/WrittenExamination/Honor_20220412/"/>
         <content type="html">&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
 &lt;p&gt;笔试一共三道编程题，分数依次为 100、200、300，需要按顺序依次完成，只有做完这一道题，才能进入下一道题，无法跳题，使用的是牛客网，允许跳出界面使用自己的 IDE。&lt;/p&gt;
@@ -63,7 +63,7 @@
     </entry>
     <entry>
         <id>http://liangmeng.com/WrittenExamination/MeiTuan_20220409/</id>
-        <title>美团面试题</title>
+        <title>美团笔试题</title>
         <link rel="alternate" href="http://liangmeng.com/WrittenExamination/MeiTuan_20220409/"/>
         <content type="html">&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
 &lt;p&gt;笔试一共五道编程题（四 + 一），一为专项编程题，估计不同岗位有题目不一样，使用的是赛码网，允许跳出界面使用自己的 IDE。&lt;/p&gt;
