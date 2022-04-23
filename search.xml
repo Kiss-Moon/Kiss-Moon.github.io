@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CPP语言基础</title>
+    <url>/C-CPP/CPP%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>C-CPP</category>
+        <category>CPP语言基础</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>第一章-人工智能的概述</title>
     <url>/ArtificialIntelligence/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E6%A6%82%E8%BF%B0/</url>
     <content><![CDATA[<h1 id="人工智能概述"><a class="anchor" href="#人工智能概述">#</a> 人工智能概述</h1>
@@ -184,16 +196,23 @@
       </tags>
   </entry>
   <entry>
-    <title>CPP语言基础</title>
-    <url>/C-CPP/CPP%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[]]></content>
+    <title>欢迎来到我的世界</title>
+    <url>/Hello-MyWorld/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo</span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting</span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub</span>.</p>
+<h2 id="quick-start"><a class="anchor" href="#quick-start">#</a> Quick Start</h2>
+<h3 id="create-a-new-post"><a class="anchor" href="#create-a-new-post">#</a> Create a new post</h3>
+<figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo new <span class="token string">"My New Post"</span></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing</span></p>
+<h3 id="run-server"><a class="anchor" href="#run-server">#</a> Run server</h3>
+<figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server</span></p>
+<h3 id="generate-static-files"><a class="anchor" href="#generate-static-files">#</a> Generate static files</h3>
+<figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating</span></p>
+<h3 id="deploy-to-remote-sites"><a class="anchor" href="#deploy-to-remote-sites">#</a> Deploy to remote sites</h3>
+<figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment</span></p>
+]]></content>
       <categories>
-        <category>C-CPP</category>
-        <category>CPP语言基础</category>
+        <category>Hello-MyWorld</category>
+        <category>欢迎来到我的世界</category>
       </categories>
-      <tags>
-        <tag>C++</tag>
-      </tags>
   </entry>
   <entry>
     <title>学生成绩管理系统</title>
@@ -255,108 +274,6 @@
         <category>LeetCode</category>
         <category>两数之和</category>
       </categories>
-  </entry>
-  <entry>
-    <title>欢迎来到我的世界</title>
-    <url>/Hello-MyWorld/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo</span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting</span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub</span>.</p>
-<h2 id="quick-start"><a class="anchor" href="#quick-start">#</a> Quick Start</h2>
-<h3 id="create-a-new-post"><a class="anchor" href="#create-a-new-post">#</a> Create a new post</h3>
-<figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo new <span class="token string">"My New Post"</span></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing</span></p>
-<h3 id="run-server"><a class="anchor" href="#run-server">#</a> Run server</h3>
-<figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server</span></p>
-<h3 id="generate-static-files"><a class="anchor" href="#generate-static-files">#</a> Generate static files</h3>
-<figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating</span></p>
-<h3 id="deploy-to-remote-sites"><a class="anchor" href="#deploy-to-remote-sites">#</a> Deploy to remote sites</h3>
-<figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment</span></p>
-]]></content>
-      <categories>
-        <category>Hello-MyWorld</category>
-        <category>欢迎来到我的世界</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>八股文之操作系统</title>
-    <url>/StereotypedWriting/OperatingSystem/</url>
-    <content><![CDATA[<h1 id="简要概述一下什么是操作系统"><a class="anchor" href="#简要概述一下什么是操作系统">#</a> 简要概述一下什么是操作系统？</h1>
-<ul>
-<li>操作系统是<strong>管理计算机硬件和软件资源</strong>的计算机程序，提供一个计算机用户与计算机硬件系统之间的接口（向上对用户程序提供接口，向下接管硬件资源）。</li>
-<li>操作系统本质上也是一个软件，作为最接近硬件的<strong>系统软件，负责处理器管理、存储器管理、设备驱动管理、文件系统管理和提供用户接口。</strong></li>
-</ul>
-<h1 id="操作系统的分类有哪些"><a class="anchor" href="#操作系统的分类有哪些">#</a> 操作系统的分类有哪些？</h1>
-<ul>
-<li>操作系统一般可分为<strong>批处理操作系统、分时操作系统和实时操作系统。</strong></li>
-<li>若一个操作系统兼顾批处理和分时的功能，则称该系统为<strong>通用操作系统</strong>，常见的通用操作系统有：Windows、Linux、MacOS 等。</li>
-</ul>
-<h1 id="什么是内核态和用户态"><a class="anchor" href="#什么是内核态和用户态">#</a> 什么是内核态和用户态？</h1>
-<ul>
-<li>为了<strong>避免操作系统和关键数据被用户程序破坏</strong>，将处理器的执行状态分为内核态和用户态。</li>
-<li>内核态是操作系统管理程序执行时所处的状态，<strong>能够执行包含特权指令在内的一切指令，能够访问系统内所有的存储空间。</strong></li>
-<li>用户态是用户程序执行时处理器所处的状态，<strong>不能执行特权指令，只能访问用户地址空间。</strong></li>
-<li>用户程序运行在用户态，操作系统内核运行在内核态。</li>
-</ul>
-<h1 id="如何实现内核态和用户态的切换"><a class="anchor" href="#如何实现内核态和用户态的切换">#</a> 如何实现内核态和用户态的切换？</h1>
-<p>处理器从用户态切换到内核态的方法有三种：<strong>系统调用、异常、外部中断。</strong></p>
-<ul>
-<li>系统调用，操作系统的最小功能单位，是操作系统提供的<strong>用户接口，是软中断。</strong></li>
-<li>异常，也叫做<strong>内中断，是由错误引起的</strong>，如文件损坏、缺页故障等。</li>
-<li>外部中断，通过两根信号线来通知处理器<strong>外设的状态变化，是硬中断。</strong></li>
-</ul>
-<h1 id="软中断和硬中断的区别与联系"><a class="anchor" href="#软中断和硬中断的区别与联系">#</a> 软中断和硬中断的区别与联系？</h1>
-<ul>
-<li>硬中断是有<strong>外设硬件</strong>发出的，<strong>需要有中断控制器</strong>的参与。其过程是外设侦测到变化，告知中断控制器，中断控制器通过 CPU 或内存的中断脚通 CPU，然后<strong>硬件</strong>进行程序计数器及堆栈寄存器的现场保存工作（引发上下文切换），并根据中断向量调用<strong>硬中断处理程序</strong>进行中断处理。</li>
-<li>软中断则通常是由<strong>硬中断处理程序或者进程调度程序等软件程序</strong>发出的中断信号，<strong>无需中断控制器</strong>的参与，直接以一个 CPU 指令之形式指示<strong> CPU</strong> 进行程序计数器及堆栈寄存器之现场保存工作 (亦会引发上下文切换)，并调用相应的<strong>软中断处理程序</strong>进行中断处理 (即我们通常所言之系统调用)。</li>
-<li>硬中断直接以硬件的方式引发，处理速度快。软中断以软件指令的方式引发，适合于对响应速度要求不是特别严格的场景。</li>
-<li>硬中断通过设置 CPU 的屏蔽位可进行屏蔽，软中断则由于是指令之方式给出，不能屏蔽（<strong>硬中断可以被屏蔽，软中断不可以被屏蔽</strong>）。</li>
-<li>硬中断和软中断<strong>均会引起上下文切换 (进程 / 线程之切换)</strong>，进程切换的过程是差不多的。</li>
-</ul>
-<h1 id="并发和并行的区别"><a class="anchor" href="#并发和并行的区别">#</a> 并发和并行的区别？</h1>
-<ul>
-<li>并发：宏观上看多个程序在同时运行，比如在单核 CPU 上的多任务，但微观上看程序的指令是<strong>交替运行</strong>的，<strong>CPU 在任何时刻最多只能同时运行一条指令</strong>。</li>
-<li>并行：严格意义上的同时运行，比如多核 CPU，程序的指令是<strong>同时运行</strong>的，<strong>CPU 在任何时刻最多能够同时运行多条指令</strong>。</li>
-<li>并发<strong>不能</strong>提高计算机的性能，而并行<strong>能够</strong>提高计算机的性能。</li>
-</ul>
-<h1 id="什么是进程-线程-协程"><a class="anchor" href="#什么是进程-线程-协程">#</a> 什么是进程、线程、协程？</h1>
-<ul>
-<li>进程：进程是<strong>系统进行资源分配和管理的基本单位</strong>。每个进程都有自己<strong>独立的内存空间</strong>，不同进程之间可以进行通信。由于进程比较重量，占据独立的内存，所以进程上下文的切换开销（栈、寄存器、虚拟内存、文件句柄等）比较大，但相对来说比较安全。</li>
-<li>线程：线程是进程的一个实体，是<strong> CPU 调度和分派的基本单位</strong>，它是比进程更小的能够独立运行的单位。线程自己基本上不拥有系统资源，只拥有一点在运行中必不可少的资源（栈、寄存器、程序计数器），但是它可<strong>与同属一个进程的其他线程共享进程所拥有的全部资源</strong>。线程间的通信主要通过共享内存，上下文的切换开销比较少，但相比进程不够稳定，容易丢失数据。</li>
-<li>协程：协程是<strong>一种用户态的轻量级线程</strong>，协程的<strong>调度完全由用户控制</strong>。协程拥有自己的寄存器上下文和栈。协程调度切换时，将寄存器上下文和栈保存到其他地方。在切回来的时候，恢复先前保存的寄存器上下文和栈，直接操作栈则<strong>基本没有内核切换的开销，可以不加锁地访问全局变量</strong>，所以上下文的切换非常快。</li>
-</ul>
-<h1 id="进程和线程的区别"><a class="anchor" href="#进程和线程的区别">#</a> 进程和线程的区别？</h1>
-<ul>
-<li><strong>一个程序至少有一个进程，一个进程至少有一个线程。</strong></li>
-<li><strong>从系统调度上看：进程是资源分配和管理的基本单位，线程是 CPU 调度和分派的基本单位。</strong></li>
-<li><strong>从上下文切换上看：线程上下文的切换要比进程上下文的切换快得多。</strong></li>
-<li><strong>从系统开销上看：创建或撤销进程时，系统都要为之分配或回收系统资源，如内存空间、I/O 设备等，而创建或撤销线程时，系统只需要为之分配或回收少量资源，如栈、寄存器等，所以进程切换的开销要远大于线程切换的开销。</strong></li>
-</ul>
-<h1 id="协程和线程的区别"><a class="anchor" href="#协程和线程的区别">#</a> 协程和线程的区别？</h1>
-<ul>
-<li>一个线程可以有多个协程，一个进程也可以有多个协程。线程和进程都是同步机制，而协程是异步机制。</li>
-<li>协程是由程序自身控制的，没有线程切换的开销，执行效率非常高。</li>
-<li>协程不需要多线程的锁机制：在协程中控制共享资源不需要加锁，只需要判断状态即可，所以执行效率比多线程高很多。</li>
-<li>线程是抢占式的，而协程是非抢占式的，需要用户释放使用权切换到其他协程，因此同一时间只有一个协程拥有运行权，相当于单线程。</li>
-<li>协程不被操作系统内核管理，而完全由程序控制。线程是被分割的 CPU 资源，协程是组织好的代码流程，线程是协程的资源。但协程不会直接使用线程，协程直接利用的是执行器来关联任意线程或线程池。</li>
-</ul>
-<h1 id="进程的基本操作有哪些"><a class="anchor" href="#进程的基本操作有哪些">#</a> 进程的基本操作有哪些？</h1>
-<ul>
-<li>fork () 创建子进程：<strong>fork () 函数调用一次，返回两次，在父进程中返回子进程的 PID，而在子进程中返回 0</strong>，可以利用这个特点来判断一个进程是父进程还是子进程。<br>
-（1）新创建子进程几乎但不完全与父进程相同：子进程得到与父进程用户级<strong>虚拟地址空间相同（但是独立的）一份副本</strong>，包括代码和数据段、堆、共享库以及用户栈；子进程还获得与父进程所有<strong>打开文件的描述符相同的一份副本</strong>，这意味着子进程可以读写父进程中任何打开的文件。<br>
-（2）父进程与子进程最大的区别在于它们的进程 ID（PID）不同。</li>
-<li>exec () 执行新程序：<strong>exec () 函数可以替换当前进程的代码，执行一个新的程序，而不是继续执行当前程序</strong>。exec () 函数可以接受一个参数，这个参数是一个字符串，表示要执行的新程序的路径，如果参数是一个相对路径，那么它会被解析为当前进程的工作目录下的路径。</li>
-<li>wait () 等待子进程结束：<strong>wait () 函数可以等待子进程结束，并返回子进程的返回值。</strong></li>
-<li>waitpid () 等待子进程结束：<strong>waitpid () 函数可以等待指定的子进程结束，并返回子进程的返回值。</strong></li>
-<li>exit () 退出当前进程：<strong>exit () 函数可以退出当前进程，并返回一个整数。</strong></li>
-</ul>
-]]></content>
-      <categories>
-        <category>StereotypedWriting</category>
-        <category>OperatingSystem</category>
-      </categories>
-      <tags>
-        <tag>八股文</tag>
-        <tag>操作系统</tag>
-        <tag>笔记</tag>
-      </tags>
   </entry>
   <entry>
     <title>美团笔试题</title>
@@ -578,6 +495,89 @@ n 种颜色，如果颜色足够 (指大于四种)，我们其实也只能取出
         <tag>笔试题</tag>
         <tag>牛客网</tag>
         <tag>荣耀</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>八股文之操作系统</title>
+    <url>/StereotypedWriting/OperatingSystem/</url>
+    <content><![CDATA[<h1 id="简要概述一下什么是操作系统"><a class="anchor" href="#简要概述一下什么是操作系统">#</a> 简要概述一下什么是操作系统？</h1>
+<ul>
+<li>操作系统是<strong>管理计算机硬件和软件资源</strong>的计算机程序，提供一个计算机用户与计算机硬件系统之间的接口（向上对用户程序提供接口，向下接管硬件资源）。</li>
+<li>操作系统本质上也是一个软件，作为最接近硬件的<strong>系统软件，负责处理器管理、存储器管理、设备驱动管理、文件系统管理和提供用户接口。</strong></li>
+</ul>
+<h1 id="操作系统的分类有哪些"><a class="anchor" href="#操作系统的分类有哪些">#</a> 操作系统的分类有哪些？</h1>
+<ul>
+<li>操作系统一般可分为<strong>批处理操作系统、分时操作系统和实时操作系统。</strong></li>
+<li>若一个操作系统兼顾批处理和分时的功能，则称该系统为<strong>通用操作系统</strong>，常见的通用操作系统有：Windows、Linux、MacOS 等。</li>
+</ul>
+<h1 id="什么是内核态和用户态"><a class="anchor" href="#什么是内核态和用户态">#</a> 什么是内核态和用户态？</h1>
+<ul>
+<li>为了<strong>避免操作系统和关键数据被用户程序破坏</strong>，将处理器的执行状态分为内核态和用户态。</li>
+<li>内核态是操作系统管理程序执行时所处的状态，<strong>能够执行包含特权指令在内的一切指令，能够访问系统内所有的存储空间。</strong></li>
+<li>用户态是用户程序执行时处理器所处的状态，<strong>不能执行特权指令，只能访问用户地址空间。</strong></li>
+<li>用户程序运行在用户态，操作系统内核运行在内核态。</li>
+</ul>
+<h1 id="如何实现内核态和用户态的切换"><a class="anchor" href="#如何实现内核态和用户态的切换">#</a> 如何实现内核态和用户态的切换？</h1>
+<p>处理器从用户态切换到内核态的方法有三种：<strong>系统调用、异常、外部中断。</strong></p>
+<ul>
+<li>系统调用，操作系统的最小功能单位，是操作系统提供的<strong>用户接口，是软中断。</strong></li>
+<li>异常，也叫做<strong>内中断，是由错误引起的</strong>，如文件损坏、缺页故障等。</li>
+<li>外部中断，通过两根信号线来通知处理器<strong>外设的状态变化，是硬中断。</strong></li>
+</ul>
+<h1 id="软中断和硬中断的区别与联系"><a class="anchor" href="#软中断和硬中断的区别与联系">#</a> 软中断和硬中断的区别与联系？</h1>
+<ul>
+<li>硬中断是有<strong>外设硬件</strong>发出的，<strong>需要有中断控制器</strong>的参与。其过程是外设侦测到变化，告知中断控制器，中断控制器通过 CPU 或内存的中断脚通 CPU，然后<strong>硬件</strong>进行程序计数器及堆栈寄存器的现场保存工作（引发上下文切换），并根据中断向量调用<strong>硬中断处理程序</strong>进行中断处理。</li>
+<li>软中断则通常是由<strong>硬中断处理程序或者进程调度程序等软件程序</strong>发出的中断信号，<strong>无需中断控制器</strong>的参与，直接以一个 CPU 指令之形式指示<strong> CPU</strong> 进行程序计数器及堆栈寄存器之现场保存工作 (亦会引发上下文切换)，并调用相应的<strong>软中断处理程序</strong>进行中断处理 (即我们通常所言之系统调用)。</li>
+<li>硬中断直接以硬件的方式引发，处理速度快。软中断以软件指令的方式引发，适合于对响应速度要求不是特别严格的场景。</li>
+<li>硬中断通过设置 CPU 的屏蔽位可进行屏蔽，软中断则由于是指令之方式给出，不能屏蔽（<strong>硬中断可以被屏蔽，软中断不可以被屏蔽</strong>）。</li>
+<li>硬中断和软中断<strong>均会引起上下文切换 (进程 / 线程之切换)</strong>，进程切换的过程是差不多的。</li>
+</ul>
+<h1 id="并发和并行的区别"><a class="anchor" href="#并发和并行的区别">#</a> 并发和并行的区别？</h1>
+<ul>
+<li>并发：宏观上看多个程序在同时运行，比如在单核 CPU 上的多任务，但微观上看程序的指令是<strong>交替运行</strong>的，<strong>CPU 在任何时刻最多只能同时运行一条指令</strong>。</li>
+<li>并行：严格意义上的同时运行，比如多核 CPU，程序的指令是<strong>同时运行</strong>的，<strong>CPU 在任何时刻最多能够同时运行多条指令</strong>。</li>
+<li>并发<strong>不能</strong>提高计算机的性能，而并行<strong>能够</strong>提高计算机的性能。</li>
+</ul>
+<h1 id="什么是进程-线程-协程"><a class="anchor" href="#什么是进程-线程-协程">#</a> 什么是进程、线程、协程？</h1>
+<ul>
+<li>进程：进程是<strong>系统进行资源分配和管理的基本单位</strong>。每个进程都有自己<strong>独立的内存空间</strong>，不同进程之间可以进行通信。由于进程比较重量，占据独立的内存，所以进程上下文的切换开销（栈、寄存器、虚拟内存、文件句柄等）比较大，但相对来说比较安全。</li>
+<li>线程：线程是进程的一个实体，是<strong> CPU 调度和分派的基本单位</strong>，它是比进程更小的能够独立运行的单位。线程自己基本上不拥有系统资源，只拥有一点在运行中必不可少的资源（栈、寄存器、程序计数器），但是它可<strong>与同属一个进程的其他线程共享进程所拥有的全部资源</strong>。线程间的通信主要通过共享内存，上下文的切换开销比较少，但相比进程不够稳定，容易丢失数据。</li>
+<li>协程：协程是<strong>一种用户态的轻量级线程</strong>，协程的<strong>调度完全由用户控制</strong>。协程拥有自己的寄存器上下文和栈。协程调度切换时，将寄存器上下文和栈保存到其他地方。在切回来的时候，恢复先前保存的寄存器上下文和栈，直接操作栈则<strong>基本没有内核切换的开销，可以不加锁地访问全局变量</strong>，所以上下文的切换非常快。</li>
+</ul>
+<h1 id="进程和线程的区别"><a class="anchor" href="#进程和线程的区别">#</a> 进程和线程的区别？</h1>
+<ul>
+<li><strong>一个程序至少有一个进程，一个进程至少有一个线程。</strong></li>
+<li><strong>从系统调度上看：进程是资源分配和管理的基本单位，线程是 CPU 调度和分派的基本单位。</strong></li>
+<li><strong>从上下文切换上看：线程上下文的切换要比进程上下文的切换快得多。</strong></li>
+<li><strong>从系统开销上看：创建或撤销进程时，系统都要为之分配或回收系统资源，如内存空间、I/O 设备等，而创建或撤销线程时，系统只需要为之分配或回收少量资源，如栈、寄存器等，所以进程切换的开销要远大于线程切换的开销。</strong></li>
+</ul>
+<h1 id="协程和线程的区别"><a class="anchor" href="#协程和线程的区别">#</a> 协程和线程的区别？</h1>
+<ul>
+<li>一个线程可以有多个协程，一个进程也可以有多个协程。线程和进程都是同步机制，而协程是异步机制。</li>
+<li>协程是由程序自身控制的，没有线程切换的开销，执行效率非常高。</li>
+<li>协程不需要多线程的锁机制：在协程中控制共享资源不需要加锁，只需要判断状态即可，所以执行效率比多线程高很多。</li>
+<li>线程是抢占式的，而协程是非抢占式的，需要用户释放使用权切换到其他协程，因此同一时间只有一个协程拥有运行权，相当于单线程。</li>
+<li>协程不被操作系统内核管理，而完全由程序控制。线程是被分割的 CPU 资源，协程是组织好的代码流程，线程是协程的资源。但协程不会直接使用线程，协程直接利用的是执行器来关联任意线程或线程池。</li>
+</ul>
+<h1 id="进程的基本操作有哪些"><a class="anchor" href="#进程的基本操作有哪些">#</a> 进程的基本操作有哪些？</h1>
+<ul>
+<li>fork () 创建子进程：<strong>fork () 函数调用一次，返回两次，在父进程中返回子进程的 PID，而在子进程中返回 0</strong>，可以利用这个特点来判断一个进程是父进程还是子进程。<br>
+（1）新创建子进程几乎但不完全与父进程相同：子进程得到与父进程用户级<strong>虚拟地址空间相同（但是独立的）一份副本</strong>，包括代码和数据段、堆、共享库以及用户栈；子进程还获得与父进程所有<strong>打开文件的描述符相同的一份副本</strong>，这意味着子进程可以读写父进程中任何打开的文件。<br>
+（2）父进程与子进程最大的区别在于它们的进程 ID（PID）不同。</li>
+<li>exec () 执行新程序：<strong>exec () 函数可以替换当前进程的代码，执行一个新的程序，而不是继续执行当前程序</strong>。exec () 函数可以接受一个参数，这个参数是一个字符串，表示要执行的新程序的路径，如果参数是一个相对路径，那么它会被解析为当前进程的工作目录下的路径。</li>
+<li>wait () 等待子进程结束：<strong>wait () 函数可以等待子进程结束，并返回子进程的返回值。</strong></li>
+<li>waitpid () 等待子进程结束：<strong>waitpid () 函数可以等待指定的子进程结束，并返回子进程的返回值。</strong></li>
+<li>exit () 退出当前进程：<strong>exit () 函数可以退出当前进程，并返回一个整数。</strong></li>
+</ul>
+]]></content>
+      <categories>
+        <category>StereotypedWriting</category>
+        <category>OperatingSystem</category>
+      </categories>
+      <tags>
+        <tag>八股文</tag>
+        <tag>操作系统</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
 </search>

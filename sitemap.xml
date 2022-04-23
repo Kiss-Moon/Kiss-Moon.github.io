@@ -110,13 +110,6 @@
 
   
   <url>
-    <loc>https://www.liangmeng.xyz/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%8C%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.liangmeng.xyz/tags/C/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -124,28 +117,14 @@
   </url>
   
   <url>
+    <loc>https://www.liangmeng.xyz/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%8C%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.liangmeng.xyz/tags/C%E8%AF%AD%E8%A8%80/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.liangmeng.xyz/tags/%E5%85%AB%E8%82%A1%E6%96%87/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.liangmeng.xyz/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.liangmeng.xyz/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -186,14 +165,28 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://www.liangmeng.xyz/categories/ArtificialIntelligence/</loc>
+    <loc>https://www.liangmeng.xyz/tags/%E5%85%AB%E8%82%A1%E6%96%87/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+  <url>
+    <loc>https://www.liangmeng.xyz/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
+    <lastmod>2022-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.liangmeng.xyz/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
   
   <url>
     <loc>https://www.liangmeng.xyz/categories/C-CPP/</loc>
@@ -203,14 +196,7 @@
   </url>
   
   <url>
-    <loc>https://www.liangmeng.xyz/categories/LeetCode/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.liangmeng.xyz/categories/ArtificialIntelligence/course-1/</loc>
+    <loc>https://www.liangmeng.xyz/categories/ArtificialIntelligence/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -224,7 +210,7 @@
   </url>
   
   <url>
-    <loc>https://www.liangmeng.xyz/categories/StereotypedWriting/</loc>
+    <loc>https://www.liangmeng.xyz/categories/C-CPP/course-2/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -238,6 +224,13 @@
   </url>
   
   <url>
+    <loc>https://www.liangmeng.xyz/categories/LeetCode/</loc>
+    <lastmod>2022-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.liangmeng.xyz/categories/WrittenExamination/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -245,14 +238,14 @@
   </url>
   
   <url>
-    <loc>https://www.liangmeng.xyz/categories/C-CPP/course-2/</loc>
+    <loc>https://www.liangmeng.xyz/categories/ArtificialIntelligence/course-1/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.liangmeng.xyz/categories/LeetCode/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</loc>
+    <loc>https://www.liangmeng.xyz/categories/StereotypedWriting/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -266,7 +259,7 @@
   </url>
   
   <url>
-    <loc>https://www.liangmeng.xyz/categories/StereotypedWriting/OperatingSystem/</loc>
+    <loc>https://www.liangmeng.xyz/categories/LeetCode/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -281,6 +274,13 @@
   
   <url>
     <loc>https://www.liangmeng.xyz/categories/WrittenExamination/Honor-20220412/</loc>
+    <lastmod>2022-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.liangmeng.xyz/categories/StereotypedWriting/OperatingSystem/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
