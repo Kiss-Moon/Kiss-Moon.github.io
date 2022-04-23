@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.liangmeng.xyz/WrittenExamination/MeiTuan_20220409/</loc>
+    <lastmod>2022-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.liangmeng.xyz/WrittenExamination/Honor_20220412/</loc>
+    <lastmod>2022-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.liangmeng.xyz/StereotypedWriting/OperatingSystem/</loc>
+    <lastmod>2022-04-23</lastmod>
+  </url>
+  <url>
     <loc>https://www.liangmeng.xyz/ArtificialIntelligence/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E6%A6%82%E8%BF%B0/</loc>
     <lastmod>2022-04-23</lastmod>
   </url>
@@ -9,19 +21,7 @@
     <lastmod>2022-04-20</lastmod>
   </url>
   <url>
-    <loc>https://www.liangmeng.xyz/StereotypedWriting/OperatingSystem/</loc>
-    <lastmod>2022-04-16</lastmod>
-  </url>
-  <url>
     <loc>https://www.liangmeng.xyz/LeetCode/1_twosum_easy/</loc>
-    <lastmod>2022-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.liangmeng.xyz/WrittenExamination/MeiTuan_20220409/</loc>
-    <lastmod>2022-04-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.liangmeng.xyz/WrittenExamination/Honor_20220412/</loc>
     <lastmod>2022-04-16</lastmod>
   </url>
   <url>
