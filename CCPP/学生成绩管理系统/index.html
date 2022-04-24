@@ -1,0 +1,383 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#FFF"><link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png"><link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico"><link rel="mask-icon" href="/images/logo.svg" color=""><link rel="manifest" href="/images/manifest.json"><meta name="msapplication-config" content="/images/browserconfig.xml"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="alternate" type="application/rss+xml" title="Keep Coding" href="https://www.liangmeng.xyz/rss.xml"><link rel="alternate" type="application/atom+xml" title="Keep Coding" href="https://www.liangmeng.xyz/atom.xml"><link rel="alternate" type="application/json" title="Keep Coding" href="https://www.liangmeng.xyz/feed.json"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext"><link rel="stylesheet" href="/css/app.css?v=0.2.5"><meta name="keywords" content="C语言,实验"><link rel="canonical" href="https://www.liangmeng.xyz/CCPP/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"><title>学生成绩管理系统 - 学生成绩管理系统 - C/CPP语言 | MAC、凉梦 = Keep Coding</title><meta name="generator" content="Hexo 5.4.1"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">学生成绩管理系统</h1><div class="meta"><span class="item" title="创建时间：2022-04-07 14:43:36"><span class="icon"><i class="ic i-calendar"></i> </span><span class="text">发表于</span> <time itemprop="dateCreated datePublished" datetime="2022-04-07T14:43:36+08:00">2022-04-07</time> </span><span class="item" title="本文字数"><span class="icon"><i class="ic i-pen"></i> </span><span class="text">本文字数</span> <span>9.9k</span> <span class="text">字</span> </span><span class="item" title="阅读时长"><span class="icon"><i class="ic i-clock"></i> </span><span class="text">阅读时长</span> <span>9 分钟</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切换导航栏"><span class="line"></span> <span class="line"></span> <span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">MAC、凉梦</a></li></ul><ul class="right"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div id="imgs" class="pjax"><ul><li class="item" data-background-image="https://tva3.sinaimg.cn/large/007RyLnQly8h1johrh54cj30ms0f6jvc.jpg"></li><li class="item" data-background-image="https://tva3.sinaimg.cn/large/007RyLnQly8h1jp0g5no4j30sg0lc0w1.jpg"></li><li class="item" data-background-image="https://tva3.sinaimg.cn/large/007RyLnQly8h1joe0eyi6j31ex0u0too.jpg"></li><li class="item" data-background-image="https://tva3.sinaimg.cn/large/007RyLnQly8h1jp0gvhl0j30m80etwhm.jpg"></li><li class="item" data-background-image="https://tva3.sinaimg.cn/large/007RyLnQly8h1jnvqcjs0j313z0u0q94.jpg"></li><li class="item" data-background-image="https://tva3.sinaimg.cn/large/007RyLnQly8h1joegnk7cj31hc0tm7ry.jpg"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"/></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"/><use xlink:href="#gentle-wave" x="48" y="3"/><use xlink:href="#gentle-wave" x="48" y="5"/><use xlink:href="#gentle-wave" x="48" y="7"/></g></svg></div><main><div class="inner"><div id="main" class="pjax"><div class="article wrap"><div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i> <span><a href="/">首页</a></span><i class="ic i-angle-right"></i> <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/CCPP/" itemprop="item" rel="index" title="分类于 C/CPP语言"><span itemprop="name">C/CPP语言</span></a><meta itemprop="position" content="1"></span><i class="ic i-angle-right"></i> <span class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/CCPP/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" itemprop="item" rel="index" title="分类于 学生成绩管理系统"><span itemprop="name">学生成绩管理系统</span></a><meta itemprop="position" content="2"></span></div><article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN"><link itemprop="mainEntityOfPage" href="https://www.liangmeng.xyz/CCPP/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="image" content="/images/avatar.jpg"><meta itemprop="name" content="MAC、凉梦"><meta itemprop="description" content=", 花落微凉梦清幽"></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Keep Coding"></span><div class="body md" itemprop="articleBody"><p>相信很多同仁在大学学习编程的时候都会被老师要求动手敲出一个学生成绩管理系统或图书馆管理系统之类的程序吧。<br><strong>不得不说，这个程序简直就是大多数初学者的恶梦，毕竟它的内容涉及到了整一个学期学到的所有知识。</strong><br><del>况且，对于像我这种在大学前从来没接触过编程，也不知道代码是啥的绝对萌新来说，更是一次史诗级的灾难。</del></p><p><strong>你见过凌晨四点的教学楼吗？</strong><br><strong>我见过，那时候我刚从里面出来。</strong><br><img data-src="/CCPP/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/1.jpg"></p><p><strong>话不多说，说多了都是泪。</strong></p><p>实验要求我就不赘述了吧，无非就是录成绩、各种方式查成绩、名次排序、计算均分等。</p><p><strong>还是直接上代码吧，大家都是爽快人！</strong></p><pre><code class="c">#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+
+#define N 30
+#define M 10
+#define X 6
+
+/*学生信息结构体，包括学号，姓名，各学科分数，总分，均分*/
+typedef struct student
+&#123;
+  long number;
+  char name[M];
+  int score[X];
+  int stutotal;
+  float stuaverage;
+&#125;STUDENT;/*对学生信息结构体取别名“STUDENT”*/
+
+/*实现两个结构体的交换，注意，结构体是可以直接赋值的*/
+void Swap(STUDENT *a,STUDENT *b)
+&#123;
+  STUDENT temp;
+  temp=*a;
+  *a=*b;
+  *b=temp;
+&#125;
+
+/*由用户用键盘依次输入学生信息*/
+void Input(STUDENT stu[],int n,int x)
+&#123;
+    printf(&quot;\n\n&quot;);
+    int i,j;
+    for(i=0;i&lt;n;i++)
+    &#123;
+        printf(&quot;Number:\t&quot;);
+        scanf(&quot;%ld&quot;,&amp;stu[i].number);
+        getchar();/*清除缓冲区中的回车字符，防止被读入学生姓名*/
+        printf(&quot;Name:\t&quot;);
+        gets(stu[i].name);
+        for(j=0;j&lt;x;j++)
+        &#123;
+            do&#123;
+                printf(&quot;Score %d:&quot;,j+1);
+                scanf(&quot;%d&quot;,&amp;stu[i].score[j]);
+            &#125;while(stu[i].score[j]&lt;0||stu[i].score[j]&gt;100);/*防止录入异常成绩*/
+        &#125;
+    &#125;
+&#125;
+
+/*计算各学科的总分和均分*/
+void SubCalculate(STUDENT stu[],int subtotal[],float subaverage[],int n,int x)
+&#123;
+    int i,j;
+    for(j=0;j&lt;x;j++)
+    &#123;
+        subtotal[j]=0;/*学科总成绩初始化为0*/
+        for(i=0;i&lt;n;i++)
+        &#123;
+            subtotal[j]=subtotal[j]+stu[i].score[j];
+        &#125;
+        subaverage[j]=(float)subtotal[j]/n;/*将整型数强转为浮点数后进行浮点数运算，确保数据的准确性*/
+        printf(&quot;(subject %d)Total:%d\t\tAverage:%6.2f\n&quot;,j+1,subtotal[j],subaverage[j]);
+    &#125;
+ &#125;
+
+/*计算每个学生的总分和均分*/
+void StuCalculate(STUDENT stu[],int n,int x)
+&#123;
+    int i,j;
+    for(i=0;i&lt;n;i++)
+    &#123;
+        stu[i].stutotal=0;/*学生总成绩初始化为0*/
+        for(j=0;j&lt;x;j++)
+        &#123;
+            stu[i].stutotal=stu[i].stutotal+stu[i].score[j];
+        &#125;
+        stu[i].stuaverage=(float)stu[i].stutotal/x;/*将整型数强转为浮点数后进行浮点数运算，确保数据的准确性*/
+        printf(&quot;(student %d)Total:%d\t\tAverage:%6.2f\n&quot;,i+1,stu[i].stutotal,stu[i].stuaverage);
+    &#125;
+&#125;
+
+/*将学生成绩按从高到低的顺序排列*/
+void SortStuScoreUpdown(STUDENT stu[],int n)
+&#123;
+    for (int i = 0; i &lt; n - 1; ++i)
+    &#123;
+        for (int j = i + 1; j &lt; n; ++j)
+        &#123;
+            if (stu[i].stutotal &lt; stu[j].stutotal) Swap(&amp;stu[i], &amp;stu[j]);/*如果前面的学生的总成绩小于后面的学生的总成绩，则交换两个学生信息结构体位置*/
+        &#125;
+      &#125;
+&#125;
+
+/*将学生成绩按从低到高的顺序排列*/
+void SortStuScoreDownup(STUDENT stu[],int n)
+&#123;
+        for (int i = 0; i &lt; n - 1; ++i)
+    &#123;
+        for (int j = i + 1; j &lt; n; ++j)
+        &#123;
+            if (stu[i].stutotal &gt; stu[j].stutotal) Swap(&amp;stu[i], &amp;stu[j]);/*如果前面的学生的总成绩大于后面的学生的总成绩，则交换两个学生信息结构体位置*/
+        &#125;
+      &#125;
+&#125;
+
+/*将学生学号按从小到大排列*/
+void SortNumberDownup(STUDENT stu[],int n)
+&#123;
+        for (int i = 0; i &lt; n - 1; ++i)
+    &#123;
+        for (int j = i + 1; j &lt; n; ++j)
+        &#123;
+            if (stu[i].number &gt; stu[j].number) Swap(&amp;stu[i], &amp;stu[j]);/*如果前面的学生的学号大于后面的学生的学号，则交换两个学生信息结构体位置*/
+        &#125;
+      &#125;
+&#125;
+
+/*将学生姓名按字典顺序排列*/
+void SortName(STUDENT stu[],int n)
+&#123;
+    for (int i = 0; i &lt; n - 1; ++i)
+    &#123;
+        for (int j = i + 1; j &lt; n; ++j)
+        &#123;
+            if (strcmp(stu[i].name,stu[j].name)&gt;0) Swap(&amp;stu[i], &amp;stu[j]);/*如果前面的学生的字母序位大于后面的学生的字母序位，则交换两个学生信息结构体位置*/
+        &#125;
+      &#125;
+&#125;
+
+/*按学号查找学生并输出学生信息*/
+void SearchNumber(STUDENT stu[],int n,int x)
+&#123;
+    int i,j,flag=0;/*未找到学生时flag初始化为0*/
+    long temp;
+    printf(&quot;Input the number:\t&quot;);
+    scanf(&quot;%ld&quot;,&amp;temp);
+    getchar();
+    SortStuScoreUpdown(stu,n);/*将学生按照成绩从高到低排序以获得学生的排名情况*/
+    for(i=0;i&lt;n;i++)/*将录入的学生学号与待查学号进行一一比对*/
+    &#123;
+        if(stu[i].number==temp)/*找到与待查学号一致的学号*/
+        &#123;
+            flag=1;/*找到学号对应的学生时，flag被赋值为1*/
+            printf(&quot;Name:     \tNumber:      \tPosition:\tTotalscore:\tAveragescore:\t  Subjectscores:\n&quot;);
+            printf(&quot;%-10s\t%-13ld\t%9d\t%11d\t%13.2f\t&quot;,stu[i].name,stu[i].number,i+1,stu[i].stutotal,stu[i].stuaverage);
+            for(j=0;j&lt;x;j++)
+            &#123;
+                printf(&quot;%4d&quot;,stu[i].score[j]);
+            &#125;
+            printf(&quot;\n&quot;);
+            break;
+        &#125;
+    &#125;
+    if(flag==0)/*未找到学号对应学生时，flag的值仍为0*/
+    &#123;
+        printf(&quot;\nNot find!\n&quot;);
+    &#125;
+&#125;
+
+/*按姓名查找学生并输出学生信息*/
+void SearchName(STUDENT stu[],int n,int x)
+&#123;
+    int i,j,flag=0;/*未找到学生时flag初始化为0*/
+    char tep[M];
+    printf(&quot;Input the name:\t&quot;);
+  scanf(&quot; %s&quot;,tep);
+    SortStuScoreUpdown(stu,n);/*将学生按照成绩从高到低排序以获得学生的排名情况*/
+    for(i=0;i&lt;n;i++)/*将录入的学生姓名与待查姓名进行一一比对*/
+    &#123;
+        if(strcmp(stu[i].name,tep)==0)/*找到与待查姓名字母顺序完全一致的姓名*/
+        &#123;
+            flag=1;/*找到学号对应的学生时，flag被赋值为1*/
+            printf(&quot;Name:     \tNumber:      \tPosition:\tTotalscore:\tAveragescore:\t  Subjectscores:\n&quot;);
+            printf(&quot;%-10s\t%-13ld\t%9d\t%11d\t%13.2f\t&quot;,stu[i].name,stu[i].number,i+1,stu[i].stutotal,stu[i].stuaverage);
+            for(j=0;j&lt;x;j++)
+            &#123;
+                printf(&quot;%4d&quot;,stu[i].score[j]);
+            &#125;
+            printf(&quot;\n&quot;);
+            break;
+        &#125;
+    &#125;
+    if(flag==0)/*未找到学号对应学生时，flag的值仍为0*/
+    &#123;
+        printf(&quot;\nNot find!\n&quot;);
+    &#125;
+&#125;
+
+/*统计并打印出各学科各阶段人数及占比*/
+void Analysis(STUDENT stu[],int n,int x)
+&#123;
+    int a[N]=&#123;0&#125;,b[N]=&#123;0&#125;,c[N]=&#123;0&#125;,d[N]=&#123;0&#125;,e[N]=&#123;0&#125;;
+    int i,j;
+    for(j=0;j&lt;x;j++)
+    &#123;
+        for(i=0;i&lt;n;i++)
+        &#123;
+            if    (100&gt;=stu[i].score[j]&amp;&amp;90&lt;=stu[i].score[j])    a[j]++;
+            else if(89&gt;=stu[i].score[j]&amp;&amp;80&lt;=stu[i].score[j])    b[j]++;
+            else if(79&gt;=stu[i].score[j]&amp;&amp;70&lt;=stu[i].score[j])    c[j]++;
+            else if(69&gt;=stu[i].score[j]&amp;&amp;60&lt;=stu[i].score[j])    d[j]++;
+            else                                                           e[j]++;
+        &#125;
+    &#125;
+    for(j=0;j&lt;x;j++)
+    &#123;
+        printf(&quot;Subject No.%d:\n&quot;,j+1);
+        printf(&quot;Excellent:%d\tpercent:%.2f%%\n&quot;,a[j],(float)100*a[j]/n);
+        printf(&quot;Good:     %d\tpercent:%.2f%%\n&quot;,b[j],(float)100*b[j]/n);
+        printf(&quot;Medium:   %d\tpercent:%.2f%%\n&quot;,c[j],(float)100*c[j]/n);
+        printf(&quot;Pass:     %d\tpercent:%.2f%%\n&quot;,d[j],(float)100*d[j]/n);
+        printf(&quot;Failed:   %d\tpercent:%.2f%%\n&quot;,e[j],(float)100*e[j]/n);
+        printf(&quot;\n&quot;);
+    &#125;
+    printf(&quot;\n&quot;);
+&#125;
+
+/*输出各学生的学生信息及各课程的总分和均分*/
+void List(STUDENT stu[],int subtotal[],float subaverage[],int n,int x)
+&#123;
+    int i,j;
+    printf(&quot;Name:     \tNumber:      \tTotalscore:\tAveragescore:\tSub 1:Sub 2:Sub 3:Sub 4:Sub 5:Sub 6:\n&quot;);
+    for(i=0;i&lt;n;i++)
+    &#123;
+        printf(&quot;%-10s\t%-13ld\t%11d\t%13.2f\t&quot;,stu[i].name,stu[i].number,stu[i].stutotal,stu[i].stuaverage);
+        for(j=0;j&lt;x;j++)
+        &#123;
+            printf(&quot;%6d&quot;,stu[i].score[j]);
+        &#125;
+        printf(&quot;\n&quot;);
+    &#125;
+     printf(&quot;          \t             \t           \t           \t&quot;);
+     for(j=0;j&lt;x;j++)
+     &#123;
+      printf(&quot;%6d&quot;,subtotal[j]);
+     &#125;
+      printf(&quot;\n&quot;);
+      printf(&quot;         \t             \t           \t          \t&quot;);
+      for(j=0;j&lt;x;j++)
+      &#123;
+          printf(&quot;%6.2f&quot;,subaverage[j]);
+      &#125;
+&#125;
+
+/*打印姓名，学号，总分，均分及各学科的分数*/
+void Print1(STUDENT stu[],int n,int x)
+&#123;
+    int i,j;
+    printf(&quot;Name:     \tNumber:\t      Totalscore:\tAveragescore:\tSubjectscore:\n&quot;);
+    for(i=0;i&lt;n;i++)
+    &#123;
+        printf(&quot;%-10s\t%-13ld\t%9d\t%13.2f\t&quot;,stu[i].name,stu[i].number,stu[i].stutotal,stu[i].stuaverage);
+        for(j=0;j&lt;x;j++)
+        &#123;
+            printf(&quot;%-6d&quot;,stu[i].score[j]);
+        &#125;
+        printf(&quot;\n&quot;);
+    &#125;
+&#125;
+
+/*打印各课程的总分和均分*/
+void Print2(int subtotal[],float subaverage[],int x)
+&#123;
+  int i;
+  for(i=0;i&lt;x;i++)
+  &#123;
+    printf(&quot;subtotal No.%d: %-6d\tsubaverage No.%d: %-6.2f\n&quot;,i+1,subtotal[i],i+1,subaverage[i]);
+  &#125;
+&#125;
+
+/*将信息写入文件并保存*/
+void WritetoFile(STUDENT stu[],int subtotal[],float subaverage[],int n,int x)
+&#123;
+  FILE *fp;
+  int i,j;
+  if((fp=fopen(&quot;score.txt&quot;,&quot;w&quot;))==NULL)/*检验文件是否打开成功*/
+  &#123;
+    printf(&quot;Failure to open score.txt!\n&quot;);
+    exit(0);
+  &#125;
+  fprintf(fp,&quot;%d\t%d\n&quot;,n,x);
+  for(i=0;i&lt;n;i++)
+  &#123;
+    fprintf(fp,&quot;%-10s\t%-13ld\t%11d\t%13.2f\t&quot;,stu[i].name,stu[i].number,stu[i].stutotal,stu[i].stuaverage);
+     for(j=0;j&lt;x;j++)
+        &#123;
+            fprintf(fp,&quot;%-6d\n&quot;,stu[i].score[j]);
+        &#125;
+  &#125;
+  for(j=0;j&lt;x;j++)
+  &#123;
+      fprintf(fp,&quot;%d\t%f\n&quot;,subtotal[j],subaverage[j]);
+  &#125;
+  fclose(fp);
+&#125;
+
+/*从文件中读取出信息*/
+void ReadfromFile(STUDENT stu[],int subtotal[],float subaverage[],int *n,int *x)
+&#123;
+  FILE *fp;
+  int i,j;
+  if((fp=fopen(&quot;score.txt&quot;,&quot;r&quot;))==NULL)/*检验文件是否打开成功*/
+  &#123;
+    printf(&quot;Failure to open score.txt!\n&quot;);
+    exit(0);
+  &#125;
+   fscanf(fp,&quot;%d\t%d\n&quot;,n,x);
+  for(i=0;i&lt;*n;i++)
+    &#123;
+      fscanf(fp,&quot;%10s&quot;,stu[i].name);
+      fscanf(fp,&quot;%13ld&quot;,&amp;stu[i].number);
+      fscanf(fp,&quot;%11d&quot;,&amp;stu[i].stutotal);
+      fscanf(fp,&quot;%f&quot;,&amp;stu[i].stuaverage);
+      for(j=0;j&lt;*x;j++)
+      &#123;
+        fscanf(fp,&quot;%6d&quot;,&amp;stu[i].score[j]);
+      &#125;
+    &#125;
+    for(j=0;j&lt;*x;j++)
+    &#123;
+        fscanf(fp,&quot;%d\t%f&quot;,&amp;subtotal[j],&amp;subaverage[j]);
+    &#125;
+    fclose(fp);
+&#125;
+
+int main()
+&#123;
+    int m,n,x;
+    int subtotal[X];
+    float subaverage[X];
+    STUDENT stu[N];
+    do&#123;
+        printf(&quot;Input the total number of students:&quot;);
+        scanf(&quot;%d&quot;,&amp;n);
+        printf(&quot;Input the total number of subjects:&quot;);
+        scanf(&quot;%d&quot;,&amp;x);
+    &#125;while(n&lt;=0||n&gt;30||x&lt;1||x&gt;6);/*检测学生总人数及学科总数是否符合要求*/
+ KG:printf(&quot;\n\n1.Input record\n2.Calculate total and average score of every course\n3.Calculate total and average score of every student\n&quot;);
+      printf(&quot;4.Sort in descending order by total score of every student\n5.Sort in ascending order by total score of every student\n&quot;);
+      printf(&quot;6.Sort in ascending order by number\n7.Sort in dictionary order by name\n8.Search by number\n&quot;);
+      printf(&quot;9.Search by name\n10.Statistic analysis for every course\n11.List record\n&quot;);
+      printf(&quot;12.Write to a file\n13.Read from a file\n0.Exit\n\nPlease enter your choice:&quot;);
+      scanf(&quot;%d&quot;,&amp;m);/*打印出菜单栏以供用户选择操作*/
+    switch(m)/*利用switch语句实现菜单中的各个功能*/
+    &#123;
+      case 1: Input(stu,n,x);
+               break;
+      case 2: SubCalculate(stu,subtotal,subaverage,n,x);
+               break;
+      case 3:StuCalculate(stu,n,x);
+               break;
+      case 4: SortStuScoreUpdown(stu,n);
+               Print1(stu,n,x);
+              break;
+      case 5: SortStuScoreDownup(stu,n);
+              Print1(stu,n,x);
+             break;
+      case 6: SortNumberDownup(stu,n);
+              Print1(stu,n,x);
+            break;
+      case 7: SortName(stu,n);
+              Print1(stu,n,x);
+            break;
+      case 8: SearchNumber(stu,n,x);
+            break;
+      case 9: SearchName(stu,n,x);
+            break;
+      case 10: Analysis(stu,n,x);
+            break;
+      case 11: List(stu,subtotal,subaverage,n,x);
+            break;
+      case 12:WritetoFile(stu,subtotal,subaverage,n,x);
+            break;
+      case 13:ReadfromFile(stu,subtotal,subaverage,&amp;n,&amp;x);
+                Print1(stu,n,x);
+                Print2(subtotal,subaverage,x);
+            break;
+      case 0: exit(0);
+    &#125;
+   if(m!=0||m&lt;0||m&gt;13) goto KG;/*检测用户选择是否出错，并利用goto语句实现跳转*/
+   return 0;
+&#125;
+</code></pre><p>以上就是该实验的全部代码。（<del>毫无保留，直接裸奔！！！</del> ）</p><p><img data-src="/CCPP/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/2.jpg"></p><p>实验数据我就不给了吧。</p><p><strong>本人王者荣耀迷和KPL迷，实验数据全是英雄名和选手名（说实话，选手们的ID确实好听），估计助教在看实验的时候都笑出猪叫了。（<del>助教笑出猪叫？？？</del> 啪，又来套娃！）</strong></p><p>有相同兴趣的小伙伴们可以找我一起观赛掉分。<del>本人厨艺精湛，饭多管饱！！！</del></p><p><img data-src="/CCPP/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/3.jpg"></p><p><strong>敲黑板！！！</strong></p><p><strong>如果大佬们不幸看了我的代码，欢迎指导！！！（毕竟这时大一刚学的时候写的，估计bug一堆，很多代码也不是最优的）<br>如果萌新们不幸看了我的代码，欢迎交流！！！（如果你也备受这个实验困扰，希望这篇文章能够帮助到你）</strong></p><p><strong>最后，有被学生成绩管理系统和图书馆管理系统折磨过的同仁，举个爪子示意一下，让我知道我并不孤单！</strong></p><p><img data-src="/CCPP/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/Wolf.jpg" alt="Wolf"></p><div class="tags"><a href="/tags/C%E8%AF%AD%E8%A8%80/" rel="tag"><i class="ic i-tag"></i> C语言</a> <a href="/tags/%E5%AE%9E%E9%AA%8C/" rel="tag"><i class="ic i-tag"></i> 实验</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i> </span><span class="text">更新于</span> <time title="修改时间：2022-04-24 12:04:45" itemprop="dateModified" datetime="2022-04-24T12:04:45+08:00">2022-04-24</time> </span><span id="CCPP/学生成绩管理系统/" class="item leancloud_visitors" data-flag-title="学生成绩管理系统" title="阅读次数"><span class="icon"><i class="ic i-eye"></i> </span><span class="text">阅读次数</span> <span class="leancloud-visitors-count"></span> <span class="text">次</span></span></div><div class="reward"><button><i class="ic i-heartbeat"></i> 赞赏</button><p>请我喝[咖啡]</p><div id="qr"><div><img data-src="/images/wechatpay.png" alt="MAC、凉梦 微信支付"><p>微信支付</p></div><div><img data-src="/images/alipay.png" alt="MAC、凉梦 支付宝"><p>支付宝</p></div></div></div><div id="copyright"><ul><li class="author"><strong>本文作者： </strong>MAC、凉梦 <i class="ic i-at"><em>@</em></i>Keep Coding</li><li class="link"><strong>本文链接：</strong> <a href="https://www.liangmeng.xyz/CCPP/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="学生成绩管理系统">https://www.liangmeng.xyz/CCPP/学生成绩管理系统/</a></li><li class="license"><strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/Hello-MyWorld/hello-world/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;007RyLnQly8h1jp0dmqw9j30jp0d4dj0.jpg" title="欢迎来到我的世界"><span class="type">上一篇</span> <span class="category"><i class="ic i-flag"></i> 欢迎来到我的世界</span><h3>欢迎来到我的世界</h3></a></div><div class="item right"><a href="/LeetCode/%E9%9A%BE%E5%BA%A6%E7%AE%80%E5%8D%95/1-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;007RyLnQly8h1jp0hkiuyj30u00i3wgz.jpg" title="1-两数之和"><span class="type">下一篇</span> <span class="category"><i class="ic i-flag"></i> 两数之和</span><h3>1-两数之和</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目录"></div><div class="related panel pjax" data-title="系列文章"><ul><li class="active"><a href="/CCPP/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" rel="bookmark" title="学生成绩管理系统">学生成绩管理系统</a></li></ul></div><div class="overview panel" data-title="站点概览"><div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person"><img class="image" itemprop="image" alt="MAC、凉梦" data-src="/images/avatar.jpg"><p class="name" itemprop="name">MAC、凉梦</p><div class="description" itemprop="description">花落微凉梦清幽</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">9</span> <span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">17</span> <span class="name">分类</span></a></div><div class="item tags"><a href="/tags/"><span class="count">16</span> <span class="name">标签</span></a></div></nav><div class="social"><span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL0tpc3MtTW9vbg==" title="https:&#x2F;&#x2F;github.com&#x2F;Kiss-Moon"><i class="ic i-github"></i></span> <span class="exturl item music" data-url="aHR0cHM6Ly9tdXNpYy4xNjMuY29tLyMvdXNlci9ob21lP2lkPTMyNjYwMzE0OTE=" title="https:&#x2F;&#x2F;music.163.com&#x2F;#&#x2F;user&#x2F;home?id&#x3D;3266031491"><i class="ic i-cloud-music"></i></span> <span class="exturl item weibo" data-url="aHR0cHM6Ly93ZWliby5jb20vdS83MjA0MzYwOTMw" title="https:&#x2F;&#x2F;weibo.com&#x2F;u&#x2F;7204360930"><i class="ic i-weibo"></i></span> <span class="exturl item zhihu" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3Blb3BsZS9NQUNfTGlhbmdNZW5n" title="https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;MAC_LiangMeng"><i class="ic i-zhihu"></i></span> <span class="exturl item email" data-url="bWFpbHRvOmxvbmV3b2xmMTAwMTAwQHFxLmNvbQ==" title="mailto:lonewolf100100@qq.com"><i class="ic i-envelope"></i></span></div><ul class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>首页</a></li><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>关于</a></li><li class="item dropdown"><a href="javascript:void(0);"><i class="ic i-feather"></i>文章</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a></li></ul></li><li class="item"><a href="/friends/" rel="section"><i class="ic i-heart"></i>朋友</a></li><li class="item"><a href="/links/" rel="section"><i class="ic i-magic"></i>链接</a></li></ul></div></div></div><ul id="quick"><li class="prev pjax"><a href="/Hello-MyWorld/hello-world/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/LeetCode/%E9%9A%BE%E5%BA%A6%E7%AE%80%E5%8D%95/1-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>随机文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/WrittenExamination/" title="分类于 企业笔试">企业笔试</a> <i class="ic i-angle-right"></i> <a href="/categories/WrittenExamination/%E7%BE%8E%E5%9B%A2%E7%AC%94%E8%AF%95%E9%A2%98/" title="分类于 美团笔试题">美团笔试题</a></div><span><a href="/WrittenExamination/MeiTuan_20220409/" title="美团20220409">美团20220409</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Hello-MyWorld/" title="分类于 我的世界">我的世界</a> <i class="ic i-angle-right"></i> <a href="/categories/Hello-MyWorld/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/" title="分类于 欢迎来到我的世界">欢迎来到我的世界</a></div><span><a href="/Hello-MyWorld/hello-world/" title="欢迎来到我的世界">欢迎来到我的世界</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/LeetCode/" title="分类于 力扣题库">力扣题库</a> <i class="ic i-angle-right"></i> <a href="/categories/LeetCode/%E9%9A%BE%E5%BA%A6%E7%AE%80%E5%8D%95/" title="分类于 难度简单">难度简单</a> <i class="ic i-angle-right"></i> <a href="/categories/LeetCode/%E9%9A%BE%E5%BA%A6%E7%AE%80%E5%8D%95/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/" title="分类于 两数之和">两数之和</a></div><span><a href="/LeetCode/%E9%9A%BE%E5%BA%A6%E7%AE%80%E5%8D%95/1-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/" title="1-两数之和">1-两数之和</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E5%85%AB%E8%82%A1%E6%96%87/" title="分类于 八股文">八股文</a> <i class="ic i-angle-right"></i> <a href="/categories/%E5%85%AB%E8%82%A1%E6%96%87/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" title="分类于 操作系统">操作系统</a></div><span><a href="/StereotypedWriting/OperatingSystem/" title="八股文之操作系统">八股文之操作系统</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/ArtificialIntelligence/" title="分类于 人工智能">人工智能</a> <i class="ic i-angle-right"></i> <a href="/categories/ArtificialIntelligence/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E6%A6%82%E8%BF%B0/" title="分类于 第一章-人工智能的概述">第一章-人工智能的概述</a></div><span><a href="/ArtificialIntelligence/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E6%A6%82%E8%BF%B0/" title="第一章-人工智能的概述">第一章-人工智能的概述</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/CCPP/" title="分类于 C/CPP语言">C/CPP语言</a> <i class="ic i-angle-right"></i> <a href="/categories/CCPP/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="分类于 学生成绩管理系统">学生成绩管理系统</a></div><span><a href="/CCPP/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="学生成绩管理系统">学生成绩管理系统</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/CCPP/" title="分类于 C/CPP语言">C/CPP语言</a> <i class="ic i-angle-right"></i> <a href="/categories/CCPP/CPP%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/" title="分类于 CPP语言基础">CPP语言基础</a></div><span><a href="/CCPP/CPP%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/" title="CPP语言基础">CPP语言基础</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/WrittenExamination/" title="分类于 企业笔试">企业笔试</a> <i class="ic i-angle-right"></i> <a href="/categories/WrittenExamination/%E8%8D%A3%E8%80%80%E7%AC%94%E8%AF%95%E9%A2%98/" title="分类于 荣耀笔试题">荣耀笔试题</a></div><span><a href="/WrittenExamination/Honor_20220412/" title="荣耀20220412">荣耀20220412</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/DataStructure/" title="分类于 数据结构">数据结构</a> <i class="ic i-angle-right"></i> <a href="/categories/DataStructure/%E7%BA%BF%E6%80%A7%E7%BB%93%E6%9E%84%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/" title="分类于 线性结构及其应用">线性结构及其应用</a></div><span><a href="/DataStructure/%E7%BA%BF%E6%80%A7%E7%BB%93%E6%9E%84%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/" title="线性结构及其应用">线性结构及其应用</a></span></li></ul></div><div><h2>最新评论</h2><ul class="leancloud-recent-comment"></ul></div></div><div class="status"><div class="copyright">&copy; <span itemprop="copyrightYear">2022</span> <span class="with-love"><i class="ic i-sakura rotate"></i> </span><span class="author" itemprop="copyrightHolder">MAC、凉梦 @ MAC、凉梦</span></div><div class="powered-by">基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span></div></div></div></footer></div><script data-config type="text/javascript">var LOCAL={path:"CCPP/学生成绩管理系统/",favicon:{show:"欢迎回来",hide:"请别离开"},search:{placeholder:"文章搜索",empty:"关于 「 ${query} 」，什么也没搜到",stats:"${time} ms 内找到 ${hits} 条结果"},valine:!0,fancybox:!0,copyright:'复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。',ignores:[function(e){return e.includes("#")},function(e){return new RegExp(LOCAL.path+"$").test(e)}]}</script><script src="https://cdn.polyfill.io/v2/polyfill.js"></script><script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script><script src="/js/app.js?v=0.2.5"></script></body></html>
